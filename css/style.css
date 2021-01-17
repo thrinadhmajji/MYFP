@@ -1,0 +1,41 @@
+/* change brand name */
+
+.navbar-brand {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
+/* change nav  */
+
+.navbar #myMenu .custom-nav .nav-item a{
+  color: #ffff;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover .nav-link{
+  color: #ffff;
+}
+/* make header image resp */
+.back-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height:90vh;
+  border-radius: 2px;
+
+}
+.font-italic{
+  font-size: 20px;
+}
+
+.mainHeading{
+  padding-top: 60px;
+}
+
+@media only screen and (max-width: 600px){
+  .myclass{
+    margin-top: 250px;
+    text-align: center;
+  }
+}
